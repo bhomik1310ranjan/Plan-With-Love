@@ -16,7 +16,7 @@ function App() {
 
     if (tours.length === 0) {
         return (
-            <div className="w-full h-screen overflow-hidden flex flex-col justify-center items-center gap-y-4">
+            <div className="w-full h-screen flex flex-col justify-center items-center gap-y-4">
                 <h4 className="font-bold text-2xl tracking-wide">
                     No Tours Left
                 </h4>
@@ -32,7 +32,7 @@ function App() {
     }
 
     return (
-        <div className="w-11/12 md:w-10/12 max-w-7xl mx-auto overflow-x-hidden overflow-y-auto flex flex-col items-center gap-y-8 py-8">
+        <div className="w-11/12 md:w-10/12 max-w-7xl mx-auto flex flex-col items-center gap-y-8 py-8">
             <h1 className="font-bold text-4xl xsm:text-5xl text-center tracking-wider border-dashed border-4 border-blue-800 rounded-3xl px-6 xsm:px-10 sm:px-14 py-5">
                 Plan With Love
             </h1>
